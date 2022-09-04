@@ -160,3 +160,141 @@ body{
 .products{
     background: url(images/arrow.png) right 15px no-repeat;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.main{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.slides{
+    background-color: #235a93;
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    height: 400px;
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    padding: 150px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 1px solid #cadbed;
+}
+.left-block{
+    background-color: #568dc6;
+    color: #ffffff;
+    width: 270px;
+    height: 845px;
+    font-size: 21px;
+    margin-left: 30px;
+}
+.over{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.left-block ul{
+    padding: 30px;
+}
+.left-block li{
+    padding: 7px;
+}
+.submit-btn{
+    background-color: #2c71b8;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 210px;
+    height: 50px;
+    padding: 14px;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.submit-btn:hover{
+    background-color: #ffffff;
+    color: #568dc6;
+}
+.t1{
+    padding: 20px;
+}
+.a-col-6{
+    margin: 30px 15px;
+}
+.title1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+}
+.menu-sort {
+    background-color: #2c71b8;
+    color: white;
+    border: 1px solid #cadbed;
+    display: block;
+    height: 35px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 5px;
+    padding: 0 17px;
+}
+.main-container{
+    width: 75%;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+.main-block{
+    height: 650px;
+    width: 270px;
+    float: left;
+    border: 1px solid #cadbed;
+    margin: 15px;
+    background-color: hsl(210, 61%, 45%, 0.75);
+}
+.main-block-img{
+    height: 180px;
+    width: 270px;
+    background-color: #cadbed;
+    text-align: center;
+    padding: 15%;
+    position: relative;
+}
+h3{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 15px;
+    color: #ffffff;
+}
+.clear{
+    clear: both;
+}
+.btn-1{
+    position: absolute;
+    top: 10px;
+    left: 230px;
+    z-index: 20;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #2c71b8;
+    padding: 0;
+}
+.btn-2{
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    z-index: 20;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #2c71b8;
+}
+button.btn-1:hover{
+    background-image: url(images/icon6.png);
+    background-color: #2c71b8;
+    background-repeat: no-repeat;
+}
+
+button.btn-2:hover, button.btn-2:active{
+    background-image: url(images/icon7.png);
+    background-color: #2c71b8;
+    background-repeat: no-repeat;
+}
